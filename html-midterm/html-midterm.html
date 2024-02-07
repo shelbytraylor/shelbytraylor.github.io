@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error-Filled Page</title>
+    </head>
+    <body>
+        <h1>Welcome to My Error-Filled Page</h1>
+    
+        <p>This is a paragraph with mismatched tags and missing closing</p>
+    
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+        </ul>
+   
+        <p>This is another paragraph without proper indentation.</p>
+    
+        <img src="image.jpg" alt="two states">
+
+        <p><a href="https://www.example.com" target="_blank">Click me!</a></p>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25<td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+            </tr>
+        </table>
+    
+        <img src="error.jpeg" alt="Error Image">
+
+        <p style="text-align:center;">This is centered text.</p>
+
+        <p style="background-color: lightgray">Text</p>
+
+        <input type="button" value="Click me">
+
+        <!-- This is an unclosed comment-->
+
+        <p><a href="#">Link without closing tag</a></p>
+
+        <p><u>Underlined text</u></p>
+
+        <dl>
+            <dt>Descriptive Item Title</dt>
+            <dd>Descriptive Item Text</dd>
+        </dl>
+    </body>
+</html>
+
+<!-- Errors List
+1. line 1: no DOCTYPE included, added <!DOCTYPE html>
+2. line 2: relocated the language tag and changed language tag to lang(<html lang="en")
+3. line 3: indented <head> element in order to fix order of elements error, resulted in re-indenting/reordering of the rest of the code
+4. line 4: added the character encoding tage(<meta charset="utf-8">)
+5. line 6: added the head closing tag(</head>)
+6. line 8: added a closing tag for head element(</head>)
+7. line 10: p element included an end tag but need opening tag, added one(<p>)
+8. line 12: change <ol> tag to <ul> and added closing tag
+9. line 25: adding closing tag for p element(</p>)
+10. line 27: added an alt attribute to the img element 
+11. line 29: changed the opening and closing tags(<p><a href="#">Link without closing tag</a></p>)
+12. line 44: added (</table>) ending tag
+13. line 46: change source to src for the img element
+14. line 48: used style tag in order to get the same effect as <center>
+15. line 50: fixed the <p tag(<p>) and correctly applued light grey background
+16. line 54: added the end tag( - - >)
+17. line 56: corrected the opening and closing tags(<p><a href="#">Link without closing tag</a></p>)
+18. line 58: changed the <em> tag to a <u> tag and redordered the closing tags(</u></p>)
+19. line 58: changed from underline to italics(<p><u>Underlined text</u></p>)
+20. line 61: changed <li> tag to <dt> tag
+21. line 62: changed to <li> tag to <dd> tag
+
