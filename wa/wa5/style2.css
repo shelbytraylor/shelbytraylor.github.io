@@ -13,7 +13,7 @@ body {
   /* ALREADY GIVEN RULESETS matched up to their correct selectors */
 
 .card{
-    width: 35 em;
+    width: 35em;
     height: 22em;
     margin: 5em auto;
     background-color: red;
@@ -31,7 +31,7 @@ body {
 
 .card footer{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.2), rgba(0,0,0,0));
-    border-radius: 0 0 1.5em 1.5e;
+    border-radius: 0 0 1.5em 1.5em;
 }
 
 /* Style Specifics for the Main Business Card Contents  */
@@ -86,7 +86,7 @@ footer p{
     padding-top: 1em;
 }
 
-  /* Card 2*/
+  /* Card 2: My Business Card*/
 
   body {
     margin: 0;
@@ -100,9 +100,9 @@ footer p{
   
   /* ALREADY GIVEN RULESETS matched up to their correct selectors */
   
-
+  /* Changed color here! */
 .card2{
-    width: 35 em;
+    width: 35em;
     height: 22em;
     margin: 5em auto;
     background-color:lightpink ;
@@ -120,7 +120,7 @@ footer p{
 
 .card2 footer{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.2), rgba(0,0,0,0));
-    border-radius: 0 0 1.5em 1.5e;
+    border-radius: 0 0 1.5em 1.5em;
 }
 
 /* Style Specifics for the Main Business Card Contents  */
@@ -150,12 +150,13 @@ article{
 
 }
 
-/* Updating the Chris Mills font size and height */ 
+/* Updating my font size and height */ 
 h2{
     font-size: 2em;
     line-height: 1.5em;
 }
 
+/* Updating my font style */ 
 .card2 h2{
     font-family:cursive;
 }
