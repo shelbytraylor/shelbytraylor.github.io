@@ -1,0 +1,33 @@
+body {
+    background: url(Noah\ Lyles.jpeg);
+    position: absolute;
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-size: cover;
+    width: 1450px;
+    height: 690px;
+  }
+
+.logo img{
+    background: url(Olympics\ Logo.png);
+    position: absolute;
+    top: 12mm;
+    right: 20mm;
+    width: 80px;
+    height: 90px;
+}
+
+.medal{
+    position: fixed; /* Change to fixed to make it relative to the viewport */
+    bottom: 0; /* Align with the bottom of the screen */
+    left: 0; /* Align with the left side of the screen */
+    width: 100%; /* Make the width fill the entire screen */
+    height: 60px; /* Set your desired height */
+    background-color: gold; /* Set the background color to gold */
+    text-align: center;
+    line-height: 60px; /* Vertical alignment for the text */
+    font: 20px white;
+    border-top-left-radius: 10px; /* Adjust the radius as needed */
+    border-top-right-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
