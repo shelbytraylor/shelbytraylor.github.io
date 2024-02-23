@@ -1,5 +1,5 @@
 body {
-    background: url(Noah\ Lyles.jpeg);
+    background: url(NoahLyles.jpeg);
     position: absolute;
     background-repeat: no-repeat; /* Do not repeat the background image */
     background-size: cover;
@@ -8,7 +8,7 @@ body {
   }
 
 .logo img{
-    background: url(Olympics\ Logo.png);
+    background: url(OlympicsLogo.png);
     position: absolute;
     top: 12mm;
     right: 20mm;
