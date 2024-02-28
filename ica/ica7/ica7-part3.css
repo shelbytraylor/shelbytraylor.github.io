@@ -1,0 +1,47 @@
+#narrowScreen{
+     /* Default color (green) */
+  background-color: green;
+}
+
+@media (max-width: 600px) {
+  #narrowScreen {
+    /* Color for screens narrower than 600px (purple) */
+    background-color: purple;
+  }
+
+}
+#wideScreen {
+    /* Default color (red) */
+    background-color: red;
+  }
+  
+  @media (min-width: 801px) {
+    #wideScreen {
+      /* Color for screens wider than 800px (light blue) */
+      background-color: lightblue;
+    }
+  }
+
+  #shortScreen {
+    /* Default color (turquoise) */
+    background-color: turquoise;
+  }
+  
+  @media (max-height: 499px) {
+    #shortScreen {
+      /* Color for screens shorter than 500px (yellow) */
+      background-color: yellow;
+    }
+  }
+
+  #tallScreen {
+    /* Default color (lavender) */
+    background-color: lavender;
+  }
+  
+  @media (min-height: 801px) {
+    #tallScreen {
+      /* Color for screens taller than 800px (orange) */
+      background-color: orange;
+    }
+  }
