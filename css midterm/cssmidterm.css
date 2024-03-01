@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    font-family: serif;
+    color:aliceblue;
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    justify-content: flex-end;
+}
+
+img{
+    top: -60px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.9;
+
+}
+
+.imagebody {
+    width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.musicsection{
+    /* display:flex; */
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
