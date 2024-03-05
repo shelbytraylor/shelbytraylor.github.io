@@ -31,3 +31,18 @@ body{
     grid-template-columns: auto auto;
 
 }
+
+@media screen and (max-width: 400px) {
+    .musicsection{
+        display: block;
+    }
+    
+}
+
+.logo {
+    position: relative;
+    width: 50 px; 
+    height: 20 px;
+    left: -100;
+
+}
