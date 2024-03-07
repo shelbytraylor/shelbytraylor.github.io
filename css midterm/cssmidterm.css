@@ -40,9 +40,9 @@ body{
 }
 
 .logo {
-    position: relative;
-    width: 50 px; 
-    height: 20 px;
-    left: -100;
-
+    position: absolute;  
+    width: 50px;       
+    height: 20px;    
+    left: 0;    
+    top: 0;           
 }
