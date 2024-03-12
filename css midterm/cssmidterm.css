@@ -1,7 +1,7 @@
 .nav {
     display: flex;
-    font-family: serif;
-    color:aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
     background-color: transparent;
     z-index: 2;
     position: relative;
@@ -17,12 +17,38 @@ img{
 
 }
 
-.imagebody {
-    width: 100%;
+.header {
+    position: fixed; 
+    top: 10px; 
+    left: 10px; 
+    font-weight: bold;
 }
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: small;
+    position: fixed; 
+    top: 40px; 
+    right: 100px; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imagebody{
+    height: 400px; 
+    width: 500px; 
+    position: absolute;
+    top: 140px; 
+    left: 20px; 
+    z-index: 1; 
+}
+
 
 body{
     margin: 0;
+    background-color: #efe3ef;
 }
 
 .musicsection{
@@ -32,17 +58,16 @@ body{
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     .musicsection{
         display: block;
     }
     
 }
 
-.logo {
-    position: absolute;  
-    width: 50px;       
-    height: 20px;    
-    left: 0;    
-    top: 0;           
+@media screen and (max-width: 1500px) {
+    .musicsection{
+        display: block;
+    }
+    
 }
