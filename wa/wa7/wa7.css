@@ -78,7 +78,7 @@ body {
 
     .photos{
       grid-template-columns: 1fr;
-      gap: 10 px;
+      gap: 10px;
     }
 
   }
