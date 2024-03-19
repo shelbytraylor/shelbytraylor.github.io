@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ica10.js" defer></script>
+    <style>
+        button{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 500px;
+            height: 400px;
+            font-size: 100px;
+            color: pink;
+            background-color: grey;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Let's get to know eachother!</p>
+    <button type="button">hey there</button> -->
+    <h1> This is some text</h1>
+    <button type="button" class="button1">woohoo</button>
+    <button type="button" id="button2">Press me instead!</button>
+    <script>
+        const button = document.querySelector("button");
+        button.addEventListener('click', changeText);
+
+        const heading = document.querySelector("h1");
+
+        function changeText() {
+            const headingText = prompt("What are you excited for?");
+            heading.textContent = headingText;
+        }
+
+        // const x = 'hello!';
+        // console.log(x)
+
+        // const button = document.querySelector("button")
+        // button.addEventListener('click', runFunction);
+
+        // function runFunction () {
+        //     console.log("test");
+        //     const name = prompt("Hey how are you today?");
+        //     button.textContent = `I'm so happy to hear that!`;
+        // }
+    </script>
+</body>
+</html>
