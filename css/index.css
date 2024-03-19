@@ -93,9 +93,9 @@ h3:hover {
 /* all images */
 
 .col img{
-    height: 350px;
-    width: 250px; 
-    margin-bottom: 20px; 
+    position: relative;
+    height: 70%;
+    width: auto;
 }
 
 /* all rows */
