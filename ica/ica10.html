@@ -8,7 +8,7 @@
     <style>
         button{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            width: 500px;
+            width: 1000px;
             height: 400px;
             font-size: 100px;
             color: pink;
@@ -22,19 +22,28 @@
 <body>
     <!-- <p>Let's get to know eachother!</p>
     <button type="button">hey there</button> -->
-    <h1> This is some text</h1>
-    <button type="button" class="button1">woohoo</button>
-    <button type="button" id="button2">Press me instead!</button>
+    <h1> Let's have some fun!</h1>
+    <button type="button" class="button1">Hey friend!</button>
+    <button type="button" id="button2">Let's change the screen color!</button>
     <script>
-        const button = document.querySelector("button");
-        button.addEventListener('click', changeText);
+        const button1 = document.querySelector(".button1");
+        button1.addEventListener('click', changeText);
+
+        const button2 = document.querySelector("#button2");
+        button2.addEventListener('click', changeColor);
 
         const heading = document.querySelector("h1");
 
         function changeText() {
-            const headingText = prompt("What are you excited for?");
+            const headingText = prompt("Type a funny phrase to see it as the header of the website");
             heading.textContent = headingText;
         }
+
+        function changeColor(){
+            const bgColor = prompt("type the word pink to see a cool effect:");
+            document.body.style.backgroundColor = bgColor;
+        }
+
 
         // const x = 'hello!';
         // console.log(x)

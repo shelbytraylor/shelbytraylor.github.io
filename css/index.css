@@ -94,7 +94,7 @@ h3:hover {
 
 .col img{
     position: relative;
-    height: 70%;
+    max-height: 10px;
     width: auto;
 }
 
