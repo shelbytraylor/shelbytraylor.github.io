@@ -1,0 +1,43 @@
+header {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+html {
+    background-color: pink;
+  }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally centers the content */
+    justify-content: center; /* Vertically centers the content */
+    height: 100vh; /* Set the container height to the viewport height */
+}
+
+.app {
+    line-height: 1.5; /* Vertically centers the text */
+    text-align: center; /* Horizontally centers the text */
+}
+
+.submit.button,
+.volume-level {
+    background-color: grey; /* Set your desired background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove borders */
+    padding: 10px 20px; /* Add padding for better spacing */
+    margin: 10px; /* Add margin for spacing between buttons */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bar {
+    height: 20px; /* Set the desired height for the separator */
+    width: 500px;
+    background-color: white; /* Choose a color for the separator */
+    border-radius: 20px; /* Adjust the radius for rounded corners */
+    margin: 10px 0; /* Add some spacing above and below the separator */
+}
