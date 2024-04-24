@@ -41,3 +41,17 @@ html {
     border-radius: 20px; /* Adjust the radius for rounded corners */
     margin: 10px 0; /* Add some spacing above and below the separator */
 }
+
+.progress{
+    width: 0px;
+    height: 100%;
+    background-color: grey;
+    border-radius: 20px;
+
+}
+
+.volume-number{
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    font-size: 1rem;
+}
