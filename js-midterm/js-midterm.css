@@ -1,5 +1,9 @@
+body {
+    overflow-y: hidden;
+}
+
 header {
-    font-size: 2rem;
+    font-size: 5rem;
     font-family: 'Courier New', Courier, monospace;
     color: grey;
     letter-spacing: -1px;
@@ -28,15 +32,16 @@ html {
     background-color: grey; /* Set your desired background color */
     color: white; /* Set the text color */
     border: none; /* Remove borders */
-    padding: 10px 20px; /* Add padding for better spacing */
+    padding: 20px 20px; /* Add padding for better spacing */
     margin: 10px; /* Add margin for spacing between buttons */
     cursor: pointer; /* Show pointer cursor on hover */
     font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
 }
 
 .bar {
-    height: 20px; /* Set the desired height for the separator */
-    width: 500px;
+    height: 40px; /* Set the desired height for the separator */
+    width: 900px;
     background-color: white; /* Choose a color for the separator */
     border-radius: 20px; /* Adjust the radius for rounded corners */
     margin: 10px 0; /* Add some spacing above and below the separator */
@@ -53,5 +58,6 @@ html {
 .volume-number{
     font-family: 'Courier New', Courier, monospace;
     color: grey;
-    font-size: 1rem;
+    font-size: 5rem;
 }
+
